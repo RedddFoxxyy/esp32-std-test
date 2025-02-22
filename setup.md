@@ -42,7 +42,8 @@ rustup target add riscv32imac-unknown-none-elf # For ESP32-C6 and ESP32-H2
 - Install Esp Generate:
 
   > Helps in generating cargo template for developement!
-  > `cargo install esp-generate`
+
+  `cargo install esp-generate`
 
 - Install ESP Flash to flash to the Esp32:
   `cargo install espflash`
@@ -65,7 +66,8 @@ rustup target add riscv32imac-unknown-none-elf # For ESP32-C6 and ESP32-H2
 - Give necessary permission on linux:
 
   > This will allow you to access the esp32!
-  > `sudo usermod -a -G dialout $USER`
+
+  `sudo usermod -a -G dialout $USER`
 
 - Reboot your pc/laptop!
 
