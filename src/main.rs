@@ -8,10 +8,10 @@ fn main() {
     // Bind the log crate to the ESP Logging facilities
     esp_idf_svc::log::EspLogger::initialize_default();
 
-    log::info!("Hello, world!");
+    println!("Hello, world!");
     let num = 100;
     let fact = factorial(num);
-    println!("Factorial is: {}", fact);
+    println!("Factorial of {} is: {}", num, fact);
 }
 
 fn factorial(num: u128) -> BigUint {
